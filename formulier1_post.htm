@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Formulieren post</title>
+	</head>
+	
+	<body>
+		
+		<form action="toon_waarden_post.php" method="post" >
+
+        	<p>Voornaam : <input type="text" name="voornaam" /></p>
+        	
+			<p>Achternaam : <input type="text" name="achternaam" /></p>
+			<p>E-mail : <input type="text" name="E-mail" /></p>
+			
+			<p>Wat wil je bestellen?</p>
+      
+			<input type="checkbox" name="LaptopPHP" value="PHP" /> Laptop</p>
+			<input type="checkbox" name="LaptopPHP" value="a" /> Harde schijf</p>
+			<input type="checkbox" name="LaptopPHP" value="b" /> Muis</p>
+			<input type="checkbox" name="LaptopPHP" value="c" /> Kabel</p>
+			<input type="checkbox" name="LaptopPHP" value="d" /> Toetsenbord</p>
+			<input type="checkbox" name="LaptopPHP" value="e" /> Reparatie</p>
+			
+			<p>Locatie ophaalpunt: </p>
+			<select name="Locatie">
+							<option>Gent</option>	
+							<option>Antwerpen</option>		
+							<option>Leuven</option>				  
+        </form>
+		
+				<br>
+				<p>Einde : <input type="submit" name="verzend" value="Verzend formulier" /></p>
+	
+	</body>	
+	
+</html>
